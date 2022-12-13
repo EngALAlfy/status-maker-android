@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "1057203681483",
+    "project_id": "messages-quotes-app",
+    "storage_bucket": "messages-quotes-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057203681483:android:eae952ce84bbb9d2a3034e",
+        "android_client_info": {
+          "package_name": "com.alalfy.quotes_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057203681483-rfvr7v0pl2qaa5bjjodh4cor2dvhukeb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alalfy.quotes_app",
+            "certificate_hash": "4cbefa41525154a2b399c38dd2c32f8c2ea20dd6"
+          }
+        },
+        {
+          "client_id": "1057203681483-h8ftkren4s99eqkentkd02n2ne7lices.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8DGKiXa-Lmhj3UmB9dI2NRro1FvRb81k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057203681483-h8ftkren4s99eqkentkd02n2ne7lices.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057203681483:android:19aa393e8fd3936fa3034e",
+        "android_client_info": {
+          "package_name": "com.alalfy.status_maker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057203681483-h8ftkren4s99eqkentkd02n2ne7lices.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8DGKiXa-Lmhj3UmB9dI2NRro1FvRb81k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057203681483-h8ftkren4s99eqkentkd02n2ne7lices.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

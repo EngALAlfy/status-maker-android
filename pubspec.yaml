@@ -1,0 +1,121 @@
+name: status_maker
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+  persistent_bottom_nav_bar: ^3.1.0
+
+  flutter_localizations:
+    sdk: flutter
+
+  provider: ^4.0.0
+  shared_preferences: ^0.5.6+2
+  uuid: ^2.0.4
+  flutter_easyloading: ^2.2.1
+  flutter_icons:
+  permission_handler:
+  json_serializable:
+  introduction_screen: ^1.0.7
+  connectivity: ^2.0.2
+  rflutter_alert: ^1.1.0
+  in_app_review: ^1.0.4
+  #app_review: ^2.0.1
+  social_share: ^2.0.5
+  screenshot: ^0.2.0
+  ext_storage: ^1.0.3
+  smart_select: ^4.3.2
+  flutter_local_notifications: ^4.0.0
+  clipboard: ^0.1.2+8
+  video_player: ^1.0.1
+  page_transition: ^1.1.7+5
+  flutter_material_color_picker: ^1.0.5
+  sembast: ^2.4.8+1
+  admob_flutter:
+  firebase_messaging: ^7.0.3
+
+dev_dependencies:
+  build_runner:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+
+
+  fonts:
+    - family: hor
+      fonts:
+        - asset: assets/fonts/alhor.ttf
+    - family: decotype
+      fonts:
+        - asset: assets/fonts/decotype.ttf
+    - family: 22876-gen01
+      fonts:
+        - asset: assets/fonts/22876-gen01.ttf
+    - family: abdo-free
+      fonts:
+        - asset: assets/fonts/abdo-free.ttf
+    - family: arabswell_1
+      fonts:
+        - asset: assets/fonts/arabswell_1.ttf
+    - family: arabswell_2
+      fonts:
+        - asset: assets/fonts/arabswell_2.ttf
+    - family: FFWahm-Two
+      fonts:
+        - asset: assets/fonts/FFWahm-Two.otf
+    - family: K-Kamran
+      fonts:
+        - asset: assets/fonts/K-Kamran.ttf
+    - family: mcs-diwany-jaly-s-u
+      fonts:
+        - asset: assets/fonts/mcs-diwany-jaly-s-u.ttf
+    - family: Sanabel-Khebrat-Musamem-2021
+      fonts:
+        - asset: assets/fonts/Sanabel-Khebrat-Musamem-2021.otf
+    - family: Sulimany
+      fonts:
+        - asset: assets/fonts/Sulimany.ttf
+    - family: Ulamjad
+      fonts:
+        - asset: assets/fonts/Ulamjad.ttf
+    - family: VIP-Rawy-Regular
+      fonts:
+        - asset: assets/fonts/VIP-Rawy-Regular.otf
